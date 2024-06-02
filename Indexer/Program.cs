@@ -11,17 +11,20 @@ namespace classIndexers
     {
         static void Main(string[] args)
         {
-            int[,] array = { { 1, 2 }, { 3, 4 } };
-            Indexers<int> indexers = new Indexers<int>(array, 2, 2, 4);
+            int[,] array = new int[,] { { 1, 2, 3 }, { 3, 4, 5 } };
+            Indexers<int> indexers = new Indexers<int>(array, 2, 3, 2, 3);
 
-            Console.WriteLine("Длина подмножества: " + indexers.Length);
+            // устанавливаем первый элемент равным 2
+            indexers[0, 0] = 2;
+
+            Console.WriteLine("Длина подмножества: " + indexers.NLength * indexers.MLength);
 
             Console.WriteLine("Первый элемент: " + indexers[0, 0]);
 
-            // устанавливаем второй элемент равным 3
-            indexers[1, 1] = 3;
+            // устанавливаем последний элемент равным 3
+            indexers[1, 2] = 3;
 
-            Console.WriteLine("Второй элемент после установки: " + indexers[1, 1]);
+            Console.WriteLine("Второй элемент после установки: " + indexers[1, 2]);
 
             Console.ReadKey();
         }

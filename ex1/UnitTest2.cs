@@ -41,7 +41,7 @@ namespace ex1
         {
             var indexers = new Indexers<int>(array, 2, 3, 2, 3);
             Assert.AreEqual(2, indexers[0, 0]);
-            Assert.AreEqual(3, indexers[1, 1]);
+            Assert.AreEqual(3, indexers[1, 2]);
         }
 
 
@@ -49,7 +49,7 @@ namespace ex1
         [TestMethod]
         public void SetCorrectly()
         {
-            var indexers = new Indexers<int>(array, 2, 2, 4);
+            var indexers = new Indexers<int>(array, 2, 2, 2, 3);
             indexers[0, 0] = 10;
             Assert.AreEqual(10, array[0,0]);
         }
@@ -59,8 +59,8 @@ namespace ex1
         [TestMethod]
         public void IndexersDoesNotCopyArray()
         {
-            var indexers1 = new Indexers<int>(array, 2, 2, 4);
-            var indexers2 = new Indexers<int>(array, 2, 2, 4);
+            var indexers1 = new Indexers<int>(array, 2, 2, 2, 3);
+            var indexers2 = new Indexers<int>(array, 2, 2, 2, 3);
             indexers1[0, 0] = 100500;
             Assert.AreEqual(100500, indexers2[1, 1]);
         }
