@@ -103,7 +103,7 @@ namespace ex1
         [ExpectedException(typeof(IndexOutOfRangeException))]
         public void FailWithWrongIndexing1()
         {
-            var indexers = new Indexers<int>(array, 2, 2, 4);
+            var indexers = new Indexers<int>(array, 2, 3, 2, 3);
             Assert.Equals(typeof(IndexOutOfRangeException), indexers[-1, -1]);
         }
 
@@ -112,7 +112,7 @@ namespace ex1
         [ExpectedException(typeof(IndexOutOfRangeException))]
         public void FailWithWrongIndexing2()
         {
-            var indexers = new Indexers<int>(array, 2, 2, 4);
+            var indexers = new Indexers<int>(array, 2, 3, 2, 3);
             Assert.AreNotEqual(typeof(IndexOutOfRangeException), indexers[10, 10]);
         }
     }
