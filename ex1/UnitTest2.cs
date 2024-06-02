@@ -49,7 +49,7 @@ namespace ex1
         [TestMethod]
         public void SetCorrectly()
         {
-            var indexers = new Indexers<int>(array, 2, 2, 2, 3);
+            var indexers = new Indexers<int>(array, 2, 3, 2, 3);
             indexers[0, 0] = 10;
             Assert.AreEqual(10, array[0,0]);
         }
@@ -59,8 +59,8 @@ namespace ex1
         [TestMethod]
         public void IndexersDoesNotCopyArray()
         {
-            var indexers1 = new Indexers<int>(array, 2, 2, 2, 3);
-            var indexers2 = new Indexers<int>(array, 2, 2, 2, 3);
+            var indexers1 = new Indexers<int>(array, 2, 3, 2, 3);
+            var indexers2 = new Indexers<int>(array, 2, 3, 2, 3);
             indexers1[0, 0] = 100500;
             Assert.AreEqual(100500, indexers2[1, 1]);
         }
@@ -71,7 +71,7 @@ namespace ex1
         [ExpectedException(typeof(ArgumentException))]
         public void FailWithWrongArguments1()
         {
-            Assert.Equals(typeof(ArgumentException), new Indexers<int>(array, 2, 2, 4));
+            Assert.Equals(typeof(ArgumentException), new Indexers<int>(array, 1, 3, 2, 3));
         }
 
 
@@ -79,7 +79,7 @@ namespace ex1
         [ExpectedException(typeof(ArgumentException))]
         public void FailWithWrongArguments2()
         {
-            Assert.Equals(typeof(ArgumentException), new Indexers<int>(array, 2, 2, 4));
+            Assert.Equals(typeof(ArgumentException), new Indexers<int>(array, 2, 4, 2, 3));
         }
 
 
@@ -87,7 +87,14 @@ namespace ex1
         [ExpectedException(typeof(ArgumentException))]
         public void FailWithWrongArguments3()
         {
-            Assert.Equals(typeof(ArgumentException), new Indexers<int>(array, 2, 2, 4));
+            Assert.Equals(typeof(ArgumentException), new Indexers<int>(array, 2, 3, 3, 3));
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void FailWithWrongArguments4()
+        {
+            Assert.Equals(typeof(ArgumentException), new Indexers<int>(array, 2, 3, 2, 4));
         }
 
 

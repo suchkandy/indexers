@@ -16,7 +16,7 @@ namespace Indexers
 
         public Indexers(T[,] array, int nIndex, int mIndex, int nLength, int mLenght)
         {
-            if (nIndex < 0 || mIndex < 0 || nIndex > array.NLength || mIndex > array.)
+            if (nIndex < 0 || mIndex < 0 || nIndex > array.GetLength(0) || nIndex > array.GetLength(1))
             {
                 throw new ArgumentException("Invalid arguments");
             }
@@ -32,12 +32,17 @@ namespace Indexers
             get { return nLength; }
         }
 
+        public int MLength
+        {
+            get { return mLength; }
+        }
+
         public T this[int nIndex, int mIndex]
         {
             // поиск N-го элемент в подмассиве
             get
             {
-                if (nIndex < 0 || mIndex < 0 || nIndex * mIndex >= length)
+                if (nIndex < 0 || mIndex < 0 || nIndex > array.GetLength(0) || nIndex > array.GetLength(1))
                 {
                     throw new IndexOutOfRangeException("Index out of range");
                 }
@@ -48,7 +53,7 @@ namespace Indexers
             // присваивание значения N-му элементу в подмассиве
             set
             {
-                if (nIndex < 0 || mIndex < 0 || nIndex * mIndex >= length)
+                if (nIndex < 0 || mIndex < 0 || nIndex > array.GetLength(0) || nIndex > array.GetLength(1))
                 {
                     throw new IndexOutOfRangeException("Index out of range");
                 }
