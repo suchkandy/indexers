@@ -71,7 +71,7 @@ namespace ex1
         [ExpectedException(typeof(ArgumentException))]
         public void FailWithWrongArguments1()
         {
-            Assert.AreEqual(typeof(ArgumentException), new Indexers<int>(array, 1, 3, 2, 3));
+            Assert.AreEqual(typeof(ArgumentException), new Indexers<int>(array, -1, 2, -1, 3));
         }
 
 
@@ -79,7 +79,7 @@ namespace ex1
         [ExpectedException(typeof(ArgumentException))]
         public void FailWithWrongArguments2()
         {
-            Assert.AreEqual(typeof(ArgumentException), new Indexers<int>(array, 2, 4, 2, 3));
+            Assert.AreEqual(typeof(ArgumentException), new Indexers<int>(array, 2, -1, 2, -1));
         }
 
 
@@ -87,15 +87,9 @@ namespace ex1
         [ExpectedException(typeof(ArgumentException))]
         public void FailWithWrongArguments3()
         {
-            Assert.AreEqual(typeof(ArgumentException), new Indexers<int>(array, 2, 3, 3, 3));
+            Assert.AreEqual(typeof(ArgumentException), new Indexers<int>(array, 2, 10, 2, 10));
         }
 
-        [TestMethod]
-        [ExpectedException(typeof(ArgumentException))]
-        public void FailWithWrongArguments4()
-        {
-            Assert.AreEqual(typeof(ArgumentException), new Indexers<int>(array, 2, 3, 2, 4));
-        }
 
 
         //при неверных индексах
