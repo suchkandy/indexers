@@ -7,7 +7,7 @@ namespace ex1
     [TestClass]
     public class UnitTest2
     {
-        int[,] array = new int[,] { {1,2, 3}, {3, 4, 5} };
+        int[,] array = new int[,] { {1, 2, 3}, {3, 4, 5} };
 
 
         //верность возвращаемой длины массива по строкам
@@ -40,8 +40,8 @@ namespace ex1
         public void GetCorrectly()
         {
             var indexers = new Indexers<int>(array, 2, 3, 2, 3);
-            Assert.AreEqual(2, indexers[0, 0]);
-            Assert.AreEqual(3, indexers[1, 2]);
+            Assert.AreEqual(1, indexers[0, 0]);
+            Assert.AreEqual(5, indexers[1, 2]);
         }
 
 
@@ -62,7 +62,7 @@ namespace ex1
             var indexers1 = new Indexers<int>(array, 2, 3, 2, 3);
             var indexers2 = new Indexers<int>(array, 2, 3, 2, 3);
             indexers1[0, 0] = 100500;
-            Assert.AreEqual(100500, indexers2[1, 1]);
+            Assert.AreEqual(100500, indexers2[0, 0]);
         }
 
 
@@ -71,7 +71,7 @@ namespace ex1
         [ExpectedException(typeof(ArgumentException))]
         public void FailWithWrongArguments1()
         {
-            Assert.Equals(typeof(ArgumentException), new Indexers<int>(array, 1, 3, 2, 3));
+            Assert.AreEqual(typeof(ArgumentException), new Indexers<int>(array, 1, 3, 2, 3));
         }
 
 
@@ -79,7 +79,7 @@ namespace ex1
         [ExpectedException(typeof(ArgumentException))]
         public void FailWithWrongArguments2()
         {
-            Assert.Equals(typeof(ArgumentException), new Indexers<int>(array, 2, 4, 2, 3));
+            Assert.AreEqual(typeof(ArgumentException), new Indexers<int>(array, 2, 4, 2, 3));
         }
 
 
@@ -87,14 +87,14 @@ namespace ex1
         [ExpectedException(typeof(ArgumentException))]
         public void FailWithWrongArguments3()
         {
-            Assert.Equals(typeof(ArgumentException), new Indexers<int>(array, 2, 3, 3, 3));
+            Assert.AreEqual(typeof(ArgumentException), new Indexers<int>(array, 2, 3, 3, 3));
         }
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentException))]
         public void FailWithWrongArguments4()
         {
-            Assert.Equals(typeof(ArgumentException), new Indexers<int>(array, 2, 3, 2, 4));
+            Assert.AreEqual(typeof(ArgumentException), new Indexers<int>(array, 2, 3, 2, 4));
         }
 
 
