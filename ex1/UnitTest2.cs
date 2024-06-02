@@ -7,15 +7,23 @@ namespace ex1
     [TestClass]
     public class UnitTest2
     {
-        int[,] array = new int[,] { {1, 2}, {3, 4} };
+        int[,] array = new int[2,3] { {1,2, 3}, {3, 4, 5} };
 
 
-        //верность возвращаемой длины массива
+        //верность возвращаемой длины массива по строкам
         [TestMethod]
-        public void HaveCorrectLength()
+        public void HaveCorrectLengthRows()
         {
-            var indexers = new Indexers<int>(array, 2, 2, 4);
-            Assert.AreEqual(4, indexers.Length);
+            var indexers = new Indexers<int>(array, 2, 3, 2, 3);
+            Assert.AreEqual(2, indexers.NLength);
+        }
+
+        //верность возвращаемой длины массива по колоннам
+        [TestMethod]
+        public void HaveCorrectLengthColommuns()
+        {
+            var indexers = new Indexers<int>(array, 2, 3, 2, 3);
+            Assert.AreEqual(3, indexers.MLength);
         }
 
 
