@@ -25,6 +25,7 @@ namespace Indexers
             this.nIndex = nIndex;
             this.mIndex = mIndex;
             this.nLength = nLength;
+            this.mLength = mLenght;
         }
 
         public int NLength
