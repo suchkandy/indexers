@@ -11,11 +11,12 @@ namespace Indexers
         private T[,] array;
         private int nIndex;
         private int mIndex;
-        private int length;
+        private int nLength;
+        private int mLength;
 
-        public Indexers(T[,] array, int nIndex, int mIndex, int length)
+        public Indexers(T[,] array, int nIndex, int mIndex, int nLength, int mLenght)
         {
-            if (nIndex < 0 || mIndex < 0 || nIndex*mIndex > array.Length || length < 1)
+            if (nIndex < 0 || mIndex < 0 || nIndex > array.NLength || mIndex > array.)
             {
                 throw new ArgumentException("Invalid arguments");
             }
@@ -23,12 +24,12 @@ namespace Indexers
             this.array = array;
             this.nIndex = nIndex;
             this.mIndex = mIndex;
-            this.length = length;
+            this.nLength = nLength;
         }
 
-        public int Length
+        public int NLength
         {
-            get { return length; }
+            get { return nLength; }
         }
 
         public T this[int nIndex, int mIndex]
