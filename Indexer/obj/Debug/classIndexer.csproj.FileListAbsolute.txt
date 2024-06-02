@@ -1,0 +1,15 @@
+D:\Учёба\2 курс\ПИС\lab_4\Indexer\bin\Debug\Indexer.exe.config
+D:\Учёба\2 курс\ПИС\lab_4\Indexer\bin\Debug\Indexer.exe
+D:\Учёба\2 курс\ПИС\lab_4\Indexer\bin\Debug\Indexer.pdb
+D:\Учёба\2 курс\ПИС\lab_4\Indexer\obj\Debug\classIndexer.csproj.AssemblyReference.cache
+D:\Учёба\2 курс\ПИС\lab_4\Indexer\obj\Debug\classIndexer.csproj.CoreCompileInputs.cache
+D:\Учёба\2 курс\ПИС\lab_4\Indexer\obj\Debug\Indexer.exe
+D:\Учёба\2 курс\ПИС\lab_4\Indexer\obj\Debug\Indexer.pdb
+D:\ПИС\lab_4\Indexer\bin\Debug\Indexer.exe.config
+D:\ПИС\lab_4\Indexer\bin\Debug\Indexer.exe
+D:\ПИС\lab_4\Indexer\bin\Debug\Indexer.pdb
+D:\ПИС\lab_4\Indexer\obj\Debug\classIndexer.csproj.AssemblyReference.cache
+D:\ПИС\lab_4\Indexer\obj\Debug\classIndexer.csproj.SuggestedBindingRedirects.cache
+D:\ПИС\lab_4\Indexer\obj\Debug\classIndexer.csproj.CoreCompileInputs.cache
+D:\ПИС\lab_4\Indexer\obj\Debug\Indexer.exe
+D:\ПИС\lab_4\Indexer\obj\Debug\Indexer.pdb

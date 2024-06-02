@@ -1,0 +1,48 @@
+D:\Учёба\2 курс\ПИС\lab_4\ex1\obj\Debug\ex1.csproj.AssemblyReference.cache
+D:\Учёба\2 курс\ПИС\lab_4\ex1\obj\Debug\ex1.csproj.CoreCompileInputs.cache
+D:\Учёба\2 курс\ПИС\lab_4\ex1\bin\Debug\ru\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+D:\Учёба\2 курс\ПИС\lab_4\ex1\bin\Debug\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Учёба\2 курс\ПИС\lab_4\ex1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\Учёба\2 курс\ПИС\lab_4\ex1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\Учёба\2 курс\ПИС\lab_4\ex1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Учёба\2 курс\ПИС\lab_4\ex1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\Учёба\2 курс\ПИС\lab_4\ex1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Учёба\2 курс\ПИС\lab_4\ex1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Учёба\2 курс\ПИС\lab_4\ex1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Учёба\2 курс\ПИС\lab_4\ex1\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+D:\Учёба\2 курс\ПИС\lab_4\ex1\bin\Debug\ex1.dll
+D:\Учёба\2 курс\ПИС\lab_4\ex1\bin\Debug\ex1.pdb
+D:\Учёба\2 курс\ПИС\lab_4\ex1\bin\Debug\Indexer.exe
+D:\Учёба\2 курс\ПИС\lab_4\ex1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Учёба\2 курс\ПИС\lab_4\ex1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Учёба\2 курс\ПИС\lab_4\ex1\bin\Debug\Indexer.pdb
+D:\Учёба\2 курс\ПИС\lab_4\ex1\bin\Debug\Indexer.exe.config
+D:\Учёба\2 курс\ПИС\lab_4\ex1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Учёба\2 курс\ПИС\lab_4\ex1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Учёба\2 курс\ПИС\lab_4\ex1\obj\Debug\ex1.csproj.CopyComplete
+D:\Учёба\2 курс\ПИС\lab_4\ex1\obj\Debug\ex1.dll
+D:\Учёба\2 курс\ПИС\lab_4\ex1\obj\Debug\ex1.pdb
+D:\ПИС\lab_4\ex1\bin\Debug\ru\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+D:\ПИС\lab_4\ex1\bin\Debug\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\ПИС\lab_4\ex1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\ПИС\lab_4\ex1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\ПИС\lab_4\ex1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\ПИС\lab_4\ex1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\ПИС\lab_4\ex1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\ПИС\lab_4\ex1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\ПИС\lab_4\ex1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\ПИС\lab_4\ex1\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+D:\ПИС\lab_4\ex1\bin\Debug\ex1.dll
+D:\ПИС\lab_4\ex1\bin\Debug\ex1.pdb
+D:\ПИС\lab_4\ex1\bin\Debug\Indexer.exe
+D:\ПИС\lab_4\ex1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\ПИС\lab_4\ex1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\ПИС\lab_4\ex1\bin\Debug\Indexer.pdb
+D:\ПИС\lab_4\ex1\bin\Debug\Indexer.exe.config
+D:\ПИС\lab_4\ex1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\ПИС\lab_4\ex1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\ПИС\lab_4\ex1\obj\Debug\ex1.csproj.AssemblyReference.cache
+D:\ПИС\lab_4\ex1\obj\Debug\ex1.csproj.CoreCompileInputs.cache
+D:\ПИС\lab_4\ex1\obj\Debug\ex1.csproj.CopyComplete
+D:\ПИС\lab_4\ex1\obj\Debug\ex1.dll
+D:\ПИС\lab_4\ex1\obj\Debug\ex1.pdb
